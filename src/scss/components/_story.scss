@@ -1,0 +1,47 @@
+.story {
+    background-color: $c-bg-section;
+    padding: 230px 0 177px 0;
+
+    &__container {
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+
+    &__body {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__title {
+        color: $c-white;
+        margin-bottom: 33px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: $fs-subtitle;
+        line-height: 1.57;
+        color: $c-white;
+        margin-bottom: 55px;
+    }
+
+    &__wrapper {
+        width: 40%;
+        padding-top: 60px;
+    }
+
+    &__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 895px;
+        height: 505px;
+        background: url(../../../assets/img/section-img1.jpg) no-repeat center;
+        background-size: cover;
+        border-radius: 16px;
+    }
+}
+
+.story-btn {
+    padding: 20px 50px;
+}

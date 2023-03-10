@@ -1,0 +1,15 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.25;
+    color: $c-white;
+    border-radius: 4px;
+    background-color: $c-bg-btn;
+    transition: all 0.4s;
+
+    &:hover,
+    &:focus {
+        background-color: $c-active;
+    }
+}
