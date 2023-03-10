@@ -5,7 +5,7 @@
     border-top: 1px solid $c-border;
     background-color: $c-bg-hero;
     background: linear-gradient(112.58deg, #ffffff 18.15%, rgba(255, 255, 255, 0) 53.07%),
-        rgba(0, 0, 0, 0.1) url(../../../assets/img/bg-picture.png) no-repeat center;
+        rgba(0, 0, 0, 0.1) url(/assets/img/bg-picture.png) no-repeat center;
     background-size: cover;
 
     &__body {
