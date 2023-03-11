@@ -290,7 +290,7 @@ body {
   height: 570px;
   background-color: rgba(1, 153, 109, 0.2);
   border-radius: 18px;
-  background: rgba(1, 153, 109, 0.2) url(/assets/img/section-img2.png) no-repeat center;
+  background: rgba(1, 153, 109, 0.2) url(../../assets/img/section-img2.png) no-repeat center;
 }
 .product__wrapper {
   width: 45%;
